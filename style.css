@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  /*justify-content: center;*/
+  height: 100vh;
+  /*width: 100vh;*/
+  margin: 0;
+  padding: 0;
+  background-color: #f5cc2b;
+}
+
+#canvas {
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+.controllers {
+  width: 100%;
+  display: inline;
+  text-align: center;
+}
+
+.gravity-value-controls, .interval-controls, .amount-controls {
+  width: 100%;
+  display: inline;
+  text-align: center;
+}
+
+.gravity-value-controls > button, .interval-controls > button, .amount-controls > button {
+  width: 10%;
+  padding: 1%;
+  font-size: 16px;
+  outline: none;
+  border: 3px solid white;
+  background-color: #002433;
+  color: white;
+  cursor: pointer;
+  margin: 3px 0;
+}
+
+.gravity-value, interval, .amount {
+  font-size: 18px;
+  color: #002433;
+}
